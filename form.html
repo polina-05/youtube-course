@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <form action="mailto:nakrytka532@gmail.com" method="post" target="_blank">
+      <fieldset>
+        <legend>Required fields</legend>
+        <label for="firstName">Имя:</label>
+        <input
+          id="firstName"
+          type="text"
+          placeholder="Your first name..."
+          required
+        />
+        <br /><br />
+        <label>
+          LastName:
+          <input type="text" name="lastName" required />
+        </label>
+        <br /><br />
+        <label
+          >Email:
+          <input
+            type="email"
+            name="email"
+            placeholder="email your..."
+            required
+          />
+          <br /><br />
+        </label>
+        <label for="questions">Your q:</label>
+        <textarea name="textrea-questions " id="questions"></textarea>
+        <button type="submit">Send</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+	padding: 15px 0;
+	text-align: center;
+	background-color: #fff;
+	&__logo {
+		max-width: 300px;
+		height: 300px;
+		border-radius: 8px;
+	}
+	&__title {
+		font-size: 24px;
+	}
+
+	&__subtitle {
+		color: rgb(43, 165, 236);
+		font-weight: 700;
+	}
+}
+
+.main {
+	background-color: #efefef;
+	padding: 15px 0;
+}
+.skills {
+	text-align: center;
+}
+
+.accordion-skills {
+	padding: 10px 0 0px 0;
+
+	&__title {
+		font-size: 18px;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+	&__list {
+		& li {
+			list-style-type: none;
+			font-size: 17px;
+			&:hover {
+				text-decoration: solid;
+			}
+		}
+		& li {
+			margin-bottom: 12px;
+		}
+		& li:last-child {
+			padding-bottom: 10px;
+		}
+	}
+}
+
+.about-me {
+	padding: 8px 14px;
+	text-align: center;
+	&__title {
+		margin-bottom: 8px;
+	}
+
+	&__text {
+		font-size: 15px;
+	}
+}
+
+.gallery {
+	text-align: center;
+	padding: 10px 0;
+	&__title {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+}
+
+.separator {
+	width: 50%;
+	height: 3px;
+	border-radius: 30px;
+	margin: 0 auto;
+	background-color: #0a89bb;
+}
+
+.video {
+	text-align: center;
+	padding: 10px 0;
+
+	&__iframe {
+		width: 400px;
+		height: 200px;
+		border-radius: 10px;
+	}
+}
+
+.hobbies {
+	padding: 10px 0;
+	text-align: center;
+	&__section {
+		& summary {
+			font-size: 18px;
+			font-weight: 600;
+			margin-bottom: 10px;
+		}
+	}
+
+	&__list {
+		& li {
+			list-style-type: none;
+			font-size: 17px;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+.quote blockquote {
+	font-size: 19px;
+	text-align: center;
+	margin-bottom: 10px;
+	text-decoration: underline;
+}
+
+.ed {
+	padding: 10px 0;
+	background-color: #89d0f7;
+	&__table {
+		border-collapse: collapse;
+		width: 100%;
+		max-width: 600px;
+		margin: 0 auto;
+		background-color: #6ba3c1;
+		text-align: center;
+
+		tr,
+		td,
+		th {
+			border: 1px solid black;
+			padding: 5px;
+		}
+	}
+}
+
+.form {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+
+	&__field {
+		padding: 10px;
+	}
+
+	&__textarea{
+		width: 300px;
+		margin-bottom: 11px;
+		margin: 12px;
+	}
+
+	& input {
+		width: 100%;
+		margin-bottom: 12px;
+	}
+
+	& button {
+		display: block;
+		margin: 0 auto;
+		padding: 7px;
+		background-color: #3adde0;
+		border: none;
+		font-weight: 700;
+		min-height: 30px;
+		border-radius: 12px;
+		border: 1px solid;
+		width: 30%;
+	}
+}
+
+address {
+	border: 1px solid;
+	margin: 0 auto;
+	background-color: #c5c3c3;
+	padding: 5px;
+	text-align: center;
+}
+
+address a {
+	text-decoration: none;
+	color: #0a89bb;
+
+}
+
+a {
+	display: block;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img class="header__logo" src="./images/polina.jpg" alt="avatar" />
+      <div class="header__title">Polina Zhuravlova</div>
+      <div class="header__subtitle">Frontend Developer</div>
+    </header>
+    <main class="main">
+      <section class="skills">
+        <details class="skills__accordion accordion-skills">
+          <summary class="accordion-skills__title">Skills</summary>
+          <ol class="accordion-skills__list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Typescript</li>
+          </ol>
+        </details>
+      </section>
+      <article class="about-me">
+        <h3 class="about-me__title">Short article about me</h3>
+        <p class="about-me__text">
+          Далеко-далеко, за словесными горами в стране гласных и согласных живут
+          рыбные тексты. Дороге деревни если переписывается не ему, переулка
+          пояс строчка всемогущая там вершину своих проектах власти взобравшись
+          наш сих продолжил парадигматическая которое рыбными. Рыбного
+          заманивший если маленький по всей вершину скатился они.
+        </p>
+      </article>
+      <section class="gallery">
+        <h4 class="gallery__title">Gallery</h4>
+        <img src="https://placehold.co/240x240" alt="placehold image" />
+        <img src="https://placehold.co/240x240" alt="placehold image" />
+        <img src="https://placehold.co/240x240" alt="placehold image" />
+      </section>
+      <hr class="separator" />
+      <section class="video">
+        <iframe
+          class="video__iframe"
+          src="https://www.youtube.com/embed/N-Fa1tm3oz0?si=-4uiq6ztttH6-5VY"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section class="hobbies">
+        <details class="hobbies__section">
+          <summary>Hobbies</summary>
+          <ul class="hobbies__list">
+            <li>Reading</li>
+            <li>Dancing</li>
+            <li>Yoga</li>
+            <li>Video editing</li>
+          </ul>
+        </details>
+      </section>
+      <section class="quote">
+        <blockquote>
+          Success is not final, failure is not fatal: it is the courage to
+          continue that counts.
+        </blockquote>
+      </section>
+      <section class="ed">
+        <table class="ed__table">
+          <thead>
+            <tr>
+              <th>School / University</th>
+              <th>Profession</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hillel</td>
+              <td>Frontend Developer - part 1</td>
+              <td>2022</td>
+            </tr>
+            <tr>
+              <td>Hillel</td>
+              <td>Frontend Developer - part 2</td>
+              <td>2023</td>
+            </tr>
+            <tr>
+              <td>Genius</td>
+              <td>FullStack Developer</td>
+              <td>2024</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="interaction">
+        <form
+          class="form"
+          action="https://www.google.com/"
+          method="get"
+          target="_blank"
+        >
+          <fieldset class="form__field">
+            <legend>Required fields:</legend>
+
+            <label for="firstName">Name:</label>
+            <input id="firstName" type="text" name="firstName" required />
+
+            <label for="lastName">Last name:</label>
+            <input id="lastName" type="text" name="lastName" required />
+
+            <label for="emailThis">Email:</label>
+            <input id="emailThis" type="email" name="emailUser" required />
+          </fieldset>
+
+          <textarea class="form__textarea" name="someText"></textarea>
+          <button type="submit">Отправить</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <address>
+        <a href="mailto:polina23@gmail.com">polina23@gmail.com</a>
+        <a href="tel:+380987293740">+380987293740</a>
+      </address>
+    </footer>
+  </body>
+</html>
