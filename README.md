@@ -1,4 +1,4 @@
-# My page
+<!-- # My page
 
 ## About me
 
@@ -6,4 +6,4 @@
 Semantic tags
 '''
 
-![image](./images/polina.jpg)
+![image](./images/polina.jpg) -->
